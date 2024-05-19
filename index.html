@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="taskTitle">3 задача. Котики и миска.</h1>
+    <form id="feedForm">
+        <label for="numberOfCats">Количество котов (n):</label>
+        <input id="numberOfCats" type="number" name="n" required>
+        <label for="bowlVolume">Вместительность миски (m):</label>
+        <input id="bowlVolume" type="number" name="m" required>
+        <label for="neededFood">Сколько корма нужно коту, чтобы наесться (b):</label>
+        <input id="neededFood" type="number" name="b" required>
+        <label for="numberOfCats">Время наполнения миски (r):</label>
+        <input id="bowlRefillTime" type="number" name="r" required>
+        <label for="numberOfCats">Время поедания b корма (t):</label>
+        <input id="timeForEating" type="number" name="t" required>
+        <button id="start">Решить задачу</button>
+    </form>
+    <div id="status"></div>
+    <div id="fullTime"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>
